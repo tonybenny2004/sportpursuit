@@ -15,7 +15,8 @@ class Csvread
 {
     public function getRecords()
     {
-    $reader = Reader::createFromPath('storage/data.csv', 'r');
+    $filepath = __DIR__ .'/../storage/data.csv';
+    $reader = Reader::createFromPath($filepath, 'r');
     return  $records = $reader->getRecords();
     }
 }
