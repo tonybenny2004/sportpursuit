@@ -13,14 +13,9 @@ use League\Csv\Reader;
 
 class Csvread
 {
-
     public function getRecords()
     {
-        
     $reader = Reader::createFromPath('storage/data.csv', 'r');
     return  $records = $reader->getRecords();
-     
     }
-
-
 }

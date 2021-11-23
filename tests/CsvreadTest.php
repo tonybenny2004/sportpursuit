@@ -3,7 +3,10 @@
 namespace Sportspursuit\Tests\Csv;
 
 use League\Csv\Reader;
-class CsvreadTest extends \PHPUnit_Framework_TestCase
+class CsvreadTest extends \PHPUnit\Framework\TestCase
 {
-    
+    public function testgetRecordsTest()
+    {
+        $this->assertTrue(true);
+    } 
 }
