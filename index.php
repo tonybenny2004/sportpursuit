@@ -12,7 +12,7 @@ use \Codetest\Csvread;
 $obj = new Csvread();
 $records = $obj->getRecords();
 foreach ($records as $offset => $record) {
-    //$offset : represents the record offset
+ 
     print('<pre>');
     var_export($record); //returns something like
     print('</pre>');
